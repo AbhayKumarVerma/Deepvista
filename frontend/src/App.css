@@ -1,0 +1,56 @@
+#root {
+  max-width: 1200px; /* Slightly reduced max-width */
+  margin: 2rem auto; /* Added margin to top and bottom */
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo {
+  height: 8em; /* Increased logo size */
+  padding: 1em; /* Reduced padding */
+  will-change: filter;
+  transition: filter 300ms ease-in-out; /* Smoother transition */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2.5em #646cffbb); /* Brighter shadow on hover */
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2.5em #61dafbbb); /* Brighter shadow on hover */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2.5em; /* Increased padding */
+  background-color: #fff; /* White background for cards */
+  border-radius: 8px; /* Rounded corners for cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Subtle shadow for cards */
+  transition: transform 0.2s ease-in-out; /* Smooth transform on hover */
+}
+
+.card:hover {
+  transform: translateY(-4px); /* Slight lift on hover */
+}
+
+.read-the-docs {
+  color: #777; /* Darker color for better readability */
+  font-size: 1.1em; /* Slightly larger font size */
+}
