@@ -1,61 +1,52 @@
-# 📊 AI-Powered Data Analysis & Model Evaluation
+## ⭐ Overview
 
-## 🚀 Overview
+This project streamlines data analysis and model evaluation by offering an intuitive platform with the following capabilities.
 
-This project simplifies data analysis and model evaluation by offering an intuitive platform with the following features:
+## ⭐ Features
 
-## 🌟 Features
+* **CSV/Excel File Upload**
+  **Problem:** Manually loading and processing large datasets is time‑consuming and error‑prone.
+  **Solution:** Allow users to upload structured data directly, eliminating the need for manual entry.
 
-### 📁 CSV/Excel File Upload
+* **Interactive Data Visualization**
+  **Problem:** Raw data can be difficult to interpret without appropriate visualization tools.
+  **Solution:** Provide dynamic charts and graphs so users can quickly identify patterns and trends.
 
-- **Problem**: Users struggle with loading and processing large datasets manually.
-- **Solution**: Enables seamless upload of structured data, reducing the need for manual data entry.
+* **AI‑Powered Data Insights**
+  **Problem:** Extracting meaningful insights from data often requires specialized domain knowledge and statistical expertise.
+  **Solution:** Leverage AI to analyze datasets and generate concise summaries of key findings, enabling rapid, data‑driven decisions.
 
-### 📊 Interactive Data Visualization
+* **Automated Baseline Model Comparison**
+  **Problem:** Choosing the right machine learning model demands technical skills and can be time‑intensive.
+  **Solution:** Automatically train and evaluate multiple models, then compare their performance to help users select the most appropriate one.
 
-- **Problem**: Raw data is difficult to interpret without proper visualization tools.
-- **Solution**: Provides dynamic charts and graphs to help users identify patterns and trends easily.
+## ⭐ Impact
 
-### 🔍 AI-Powered Data Insights
+* Reduces manual effort in data handling and model selection.
+* Empowers non‑technical users with AI‑driven analytics.
+* Improves decision‑making through clear, visual insights.
+* Saves time by automating baseline model comparisons.
 
-- **Problem**: Extracting meaningful insights from data requires domain knowledge and statistical expertise.
-- **Solution**: Uses AI to analyze and summarize key insights, helping users make data-driven decisions quickly.
+## ⭐ Tech Stack
 
-### 🤖 Automated Baseline Model Comparison
+**Frontend**
 
-- **Problem**: Selecting the right machine learning model is time-consuming and requires technical skills.
-- **Solution**: Automatically evaluates multiple models and compares performance, helping users choose the most suitable model for their data.
+* Vite + React for rapid UI development
+* Ant Design for elegant components
+* Plotly for interactive visualizations
+* i18next for multi‑language support
 
-## 🎯 Impact
+**Backend**
 
-- ✅ Reduces manual effort in data handling and model selection.
-- ✅ Empowers non-technical users with AI-driven analytics.
-- ✅ Improves decision-making through easy-to-understand visual insights.
-- ✅ Saves time by automating baseline model comparisons.
+* Flask as a lightweight web framework
+* Python for core application logic
+* Pandas, Scikit‑learn, and XGBoost for data processing and machine learning
+* Google Gemini AI for automated insights and analytics
 
-## 🛠️ Tech Stack
+## ⭐ Future Enhancements
 
-### 🎨 Frontend
-
-- **Vite + React** - Fast and modern UI development.
-- **Ant Design** - Elegant UI components.
-- **Plotly** - Interactive visualizations.
-- **i18next** - Multi-language support.
-
-### 🔧 Backend
-
-- **Flask** - Lightweight and powerful web framework.
-- **Python** - Core programming language.
-- **Pandas, Scikit-learn, XGBoost** - Data processing and machine learning.
-- **Google Gemini AI** - AI-driven insights and automation.
-
-## 🎯 Future Enhancements
-
-- 📌 More visualization options.
-- 📌 Advanced AI-driven predictive analytics.
-- 📌 Enhanced user-friendly dashboard.
+* Expand visualization options.
+* Introduce advanced AI‑driven predictive analytics.
+* Develop a more user‑friendly dashboard.
 
 ---
-
-### 🔥 This project bridges the gap between raw data and actionable insights by making data analysis accessible, automated, and AI-driven. 🚀
-
