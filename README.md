@@ -49,4 +49,5 @@ This project streamlines data analysis and model evaluation by offering an intui
 * Introduce advanced AI‑driven predictive analytics.
 * Develop a more user‑friendly dashboard.
 
----
+--- 
+© 2025 Abhay Kumar Verma
