@@ -1,53 +1,86 @@
-## ⭐ Overview
+# ⭐ DataStreamAI
 
-This project streamlines data analysis and model evaluation by offering an intuitive platform with the following capabilities.
+A seamless platform for data analysis, visualization, and AI-powered insights—complete with automated baseline model comparison.
 
-## ⭐ Features
+---
 
-* **CSV/Excel File Upload**
-  **Problem:** Manually loading and processing large datasets is time‑consuming and error‑prone.
-  **Solution:** Allow users to upload structured data directly, eliminating the need for manual entry.
+## ⭐ Installation
 
-* **Interactive Data Visualization**
-  **Problem:** Raw data can be difficult to interpret without appropriate visualization tools.
-  **Solution:** Provide dynamic charts and graphs so users can quickly identify patterns and trends.
+1. **Clone the repo**
 
-* **AI‑Powered Data Insights**
-  **Problem:** Extracting meaningful insights from data often requires specialized domain knowledge and statistical expertise.
-  **Solution:** Leverage AI to analyze datasets and generate concise summaries of key findings, enabling rapid, data‑driven decisions.
+   ```bash
+   git clone https://github.com/your-org/DataStreamAI.git
+   cd DataStreamAI
+   ```
+2. **Backend setup**
 
-* **Automated Baseline Model Comparison**
-  **Problem:** Choosing the right machine learning model demands technical skills and can be time‑intensive.
-  **Solution:** Automatically train and evaluate multiple models, then compare their performance to help users select the most appropriate one.
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate      # macOS/Linux
+   venv\Scripts\activate       # Windows
+   pip install -r requirements.txt
+   ```
+3. **Frontend setup**
 
-## ⭐ Impact
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+4. **Run the app**
 
-* Reduces manual effort in data handling and model selection.
-* Empowers non‑technical users with AI‑driven analytics.
-* Improves decision‑making through clear, visual insights.
-* Saves time by automating baseline model comparisons.
+   * Backend: `python app.py`
+   * Frontend: open `http://localhost:5173`
 
-## ⭐ Tech Stack
+---
 
-**Frontend**
+## Features
 
-* Vite + React for rapid UI development
-* Ant Design for elegant components
-* Plotly for interactive visualizations
-* i18next for multi‑language support
+* **File Upload**: Drag-and-drop support for CSV & Excel files
+* **Interactive Charts**: Real-time, zoomable plots with Plotly
+* **AI Insights**: One-click summaries of trends and anomalies using Google Gemini
+* **Model Comparison**: Auto-train and evaluate multiple ML models, with side-by-side performance metrics
 
-**Backend**
+---
 
-* Flask as a lightweight web framework
-* Python for core application logic
-* Pandas, Scikit‑learn, and XGBoost for data processing and machine learning
-* Google Gemini AI for automated insights and analytics
+## Benefits
 
-## ⭐ Future Enhancements
+* **Effortless Data Prep**: Skip manual cleaning and formatting
+* **Inclusive Analytics**: Empower non-technical users with AI-driven interpretations
+* **Faster Decisions**: Rapid insights help stakeholders act quickly
+* **Optimized Model Selection**: Data-backed guidance on the best baseline model
 
-* Expand visualization options.
-* Introduce advanced AI‑driven predictive analytics.
-* Develop a more user‑friendly dashboard.
+---
 
---- 
-© 2025 Abhay Kumar Verma
+## Tech Stack
+
+| Layer        | Tools & Libraries                            |
+| ------------ | -------------------------------------------- |
+| **Frontend** | Vite, React, Ant Design, Plotly, i18next     |
+| **Backend**  | Flask, Python, Pandas, Scikit-learn, XGBoost |
+| **AI**       | Google Gemini API                            |
+
+---
+
+## Roadmap
+
+1. Add advanced predictive analytics modules
+2. Expand visualization gallery (e.g., network graphs, heatmaps)
+3. Role-based dashboards & user management
+4. Deployment scripts (Docker, Kubernetes)
+
+---
+
+## Contributing
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/XYZ`)
+3. Commit changes (`git commit -m "Add XYZ feature"`)
+4. Push to branch (`git push origin feature/XYZ`)
+5. Open a Pull Request
+
+---
+
+## License
+
+MIT © 2025 Abhay Kumar Verma
