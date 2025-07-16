@@ -1,4 +1,5 @@
-# ⭐ DataStreamAI
+# ⭐ Deepvista
+
 
 A seamless platform for data analysis, visualization, and AI-powered insights—complete with automated baseline model comparison.
 
