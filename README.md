@@ -34,7 +34,7 @@ A seamless platform for data analysis, visualization, and AI-powered insights—
 
 ---
 
-## Features
+## ⭐ Features
 
 * **File Upload**: Drag-and-drop support for CSV & Excel files
 * **Interactive Charts**: Real-time, zoomable plots with Plotly
@@ -43,16 +43,7 @@ A seamless platform for data analysis, visualization, and AI-powered insights—
 
 ---
 
-## Benefits
-
-* **Effortless Data Prep**: Skip manual cleaning and formatting
-* **Inclusive Analytics**: Empower non-technical users with AI-driven interpretations
-* **Faster Decisions**: Rapid insights help stakeholders act quickly
-* **Optimized Model Selection**: Data-backed guidance on the best baseline model
-
----
-
-## Tech Stack
+## ⭐ Tech Stack
 
 | Layer        | Tools & Libraries                            |
 | ------------ | -------------------------------------------- |
@@ -62,7 +53,7 @@ A seamless platform for data analysis, visualization, and AI-powered insights—
 
 ---
 
-## Roadmap
+## ⭐ Roadmap
 
 1. Add advanced predictive analytics modules
 2. Expand visualization gallery (e.g., network graphs, heatmaps)
@@ -71,7 +62,7 @@ A seamless platform for data analysis, visualization, and AI-powered insights—
 
 ---
 
-## Contributing
+## ⭐ Contributing
 
 1. Fork the repo
 2. Create a feature branch (`git checkout -b feature/XYZ`)
