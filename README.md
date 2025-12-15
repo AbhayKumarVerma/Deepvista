@@ -1,102 +1,81 @@
-<p align="center">
-  <h1 align="center">✨ Doctor Appointment Booking App — Appointments Made Easy ✨</h1>
-  <p align="center">A simple and efficient platform to connect patients and doctors with seamless appointment scheduling and management.</p>
-</p>
+# ⭐ Deepvista
+
+
+
+A seamless platform for data analysis, visualization, and AI-powered insights—complete with automated baseline model comparison.
+
+Demo video for reference:https://www.loom.com/share/92196c969198441d841b8c92a409d330?sid=beb794e1-1d15-4010-b38e-326de2b7e873
 
 ---
 
-## ✨ Installation  
+## ⭐ Installation
 
-1. **Clone the repository**
+1. **Clone the repo**
+
    ```bash
-   git clone https://github.com/your-org/DoctorAppointmentApp.git
-   cd DoctorAppointmentApp
+   git clone https://github.com/your-org/DataStreamAI.git
+   cd DataStreamAI
    ```
-
 2. **Backend setup**
-   ```bash
-   npm install
-   npm run server
-   ```
 
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate      # macOS/Linux
+   venv\Scripts\activate       # Windows
+   pip install -r requirements.txt
+   ```
 3. **Frontend setup**
+
    ```bash
    cd frontend
    npm install
    npm run dev
    ```
-
 4. **Run the app**
-   - 🖥️ Backend: `http://localhost:5000`  
-   - 🌐 Frontend: `http://localhost:5173`
+
+   * Backend: `python app.py`
+   * Frontend: open `http://localhost:5173`
 
 ---
 
-## ✨ Features  
+## ⭐ Features
 
-1. **Patient Registration & Login** – Sign up, log in, and manage patient profiles.  
-2. **Doctor Registration & Management** – Doctors can register, add their specialties, and manage availability.  
-3. **Smart Search & Filter** – Patients can find doctors by specialty, location, or available time slots.  
-4. **Appointment Booking** – Book, reschedule, or cancel appointments easily.  
-5. **Doctor’s Calendar View** – View and manage daily appointments in a calendar interface.  
-6. **Real-Time Notifications** – Get instant updates for confirmations, cancellations, and reminders.  
+* **File Upload**: Drag-and-drop support for CSV & Excel files
+* **Interactive Charts**: Real-time, zoomable plots with Plotly
+* **AI Insights**: One-click summaries of trends and anomalies using Google Gemini
+* **Model Comparison**: Auto-train and evaluate multiple ML models, with side-by-side performance metrics
 
 ---
 
-## ✨ Tech Stack  
+## ⭐ Tech Stack
 
-| Layer        | Tools & Technologies                         |
-|--------------|----------------------------------------------|
-| **Frontend** | HTML · CSS · JavaScript · React.js           |
-| **Backend**  | Node.js · Express.js                         |
-| **Database** | MongoDB                                      |
-| **Auth**     | JWT (JSON Web Token) for secure authentication |
-
----
-
-## ✨ Roadmap  
-
-1. 🩺 Integrate video consultation feature  
-2. 📅 Add appointment reminders via email/SMS  
-3. 👥 Implement role-based access for admins and users  
-4. ☁️ Enable cloud deployment and scalability options  
+| Layer        | Tools & Libraries                            |
+| ------------ | -------------------------------------------- |
+| **Frontend** | Vite, React, Ant Design, Plotly, i18next     |
+| **Backend**  | Flask, Python, Pandas, Scikit-learn, XGBoost |
+| **AI**       | Google Gemini API                            |
 
 ---
 
-## ✨ Contributing  
+## ⭐ Roadmap
 
-1. Fork the repository  
-2. Create a new branch  
-   ```bash
-   git checkout -b feature/XYZ
-   ```
-3. Commit your changes  
-   ```bash
-   git commit -m "Add XYZ feature"
-   ```
-4. Push your branch  
-   ```bash
-   git push origin feature/XYZ
-   ```
-5. Open a Pull Request 🚀  
+1. Add advanced predictive analytics modules
+2. Expand visualization gallery (e.g., network graphs, heatmaps)
+3. Role-based dashboards & user management
+4. Deployment scripts (Docker, Kubernetes)
 
 ---
 
-## ✨ Screenshots  
+## ⭐ Contributing
 
-**🏠 Home Page:**  
-![Screenshot 2025-06-10 205222](https://github.com/user-attachments/assets/bb506155-a3ef-414a-9e9d-79e2ab90dd13)
-
-**ℹ️ About Us Page:**  
-![Screenshot 2025-06-10 205257](https://github.com/user-attachments/assets/760accea-2a8c-45b5-bcda-dd70217916dc)
-
-**🔐 Sign In Page:**  
-![Screenshot 2025-06-10 205307](https://github.com/user-attachments/assets/0fd806db-c0d5-4225-bb4d-f30c4370325e)
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/XYZ`)
+3. Commit changes (`git commit -m "Add XYZ feature"`)
+4. Push to branch (`git push origin feature/XYZ`)
+5. Open a Pull Request
 
 ---
 
-## ✨ License  
+## License
 
-🪪 **MIT License** © 2025 **DocAtHome Team**  
-
-<p align="center">✨ Built with care to make healthcare appointments simple and stress-free ✨</p>
+MIT © 2025 Abhay Kumar Verma
